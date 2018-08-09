@@ -18,15 +18,15 @@
 
 
 
-#define WLAN_SSID "siec"
-#define WLAN_PASS "Ikaro777"
+#define WLAN_SSID "-"
+#define WLAN_PASS "-"
 
 
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
-#define AIO_USERNAME    "Michalek_raj"
-#define AIO_KEY         "fbb1addce34243a7ab02164040e3f4a7"
+#define AIO_USERNAME    "-"
+#define AIO_KEY         "-"
 
 
 
@@ -155,8 +155,8 @@ void setup() {
   {
     wifistart(WLAN_SSID, WLAN_PASS);
     Serial.println("Starting OTA");
-    ArduinoOTA.setHostname("Lights");
-    ArduinoOTA.setPassword("admin");
+    ArduinoOTA.setHostname("-");
+    ArduinoOTA.setPassword("-");
     ArduinoOTA.begin();
     Serial.println("OTA ready");
     Serial.print("IP address: ");
